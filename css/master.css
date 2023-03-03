@@ -1,0 +1,161 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.containar{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../images/Polygon\ Luminary.svg);
+    background-size: cover;
+}
+.containar .login{
+    background: fixed;
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 0px 25px 0 white, 0 2px 4px 0 white;
+    border-radius: 10px;
+    margin: 300px auto;
+    position: relative;
+}
+.containar .login img{
+    position: absolute;
+    top: -110px;
+    left: 90px;
+}
+.containar .login h4{
+    color: #c3c3c3;
+}
+.containar .login .form{
+    padding-left: 10px;
+}
+.containar .login .form input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(2 136 209);
+    width: 260px;
+    padding: 5px;
+    background-color: #0e2a47;
+    caret-color: white;
+}
+.containar .login .btn{
+    padding: 12px 10px;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background-color: #132e65;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    width: 100px;
+    margin: 20px auto auto auto;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.containar .login .btn:hover{
+    letter-spacing: 3px;
+}
+.containar .login .btn:hover:before,
+.containar .login .btn:hover:after{
+    width: 100%;
+    height: 100%;
+}
+.containar .login .btn::before,
+.containar .login .btn::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 0px solid red;
+    transition: 0.8s;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -ms-transition: 0.8s;
+    -o-transition: 0.8s;
+}
+.containar .login .btn::before{
+    top: -1px;
+    left: -1px;
+}
+.containar .login .btn::after{
+    right: -1px;
+    bottom: -1px;
+}
+.containar .login .sign::before{
+    top: 0px;
+    left: 0px;
+}
+.containar .login .sign::after{
+    right: 0px;
+    bottom: 0px;
+}
+#btn1::after{
+    border-bottom: 5px solid #03e9f4;
+    border-right: 5px solid #03e9f4;
+}
+#btn1::before{
+    border-top: 5px solid #3b74ba;
+    border-left: 5px solid #3b74ba;
+}
+#btn1:hover{
+    background-color: #011627;
+    color: #03e9f4;
+}
+#btn2::after{
+    border-bottom: 3px solid #ff86ff;
+    border-right: 3px solid #ff86ff;
+}
+#btn2::before{
+    border-top: 3px solid #ff86ff;
+    border-left: 3px solid #ff86ff;
+}
+#btn2:hover{
+    background-color: #011627;
+    color: #ff86ff;
+}
+.containar .login .sign{
+    padding: 10px 10px;
+    margin-top: 40px;
+}
+.containar .login .or{
+    text-align: center;
+    padding: 10px;
+}
+.containar .login .or::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    height: 1px;
+    background-color: #d7dade;
+    top: 310px;
+    width: 180px;
+}
+.containar .login .or::after {
+    content: "Or";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    background-color: #0e2a47;
+    top: 299px;
+    color: white;
+    width: 25px;
+}
