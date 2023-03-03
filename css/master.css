@@ -43,6 +43,7 @@ body{
     padding: 5px;
     background-color: #0e2a47;
     caret-color: white;
+    color: white;
 }
 .containar .login .btn{
     padding: 12px 10px;
